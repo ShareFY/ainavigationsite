@@ -15,12 +15,19 @@ export const NAV_LINKS = [
 
 export const PAGE_SIZE = 20;
 
-export const FORM_PLACEHOLDER = 'https://tap4.ai/';
+export const FORM_PLACEHOLDER = 'https://ainavigationsite.com/';
 
 export const WEBSITE_EXAMPLE =
-  '<a href="https://tap4.ai/" title="Tap4 AI Tools Directory">Tap4 AI Tools Diresctory</a>';
+  '<a href="https://ainavigationsite.com/" title="AI Navigation Site Tools Directory">AI Navigation Site Tools Directory</a>';
 
 export const STARTUP_LIST = [
+  {
+    DA: 7,
+    Website: 'AI Navigation Site',
+    URL: 'https://ainavigationsite.com/',
+    Price: 'Free',
+    Tag: 'AI',
+  },
   {
     DA: 94,
     Website: 'Trustpilot',

@@ -109,7 +109,15 @@
     "title": "AI Navigation Site - 2024年のベストAIツールを発見する",
     "subTitle": "AI Navigation Siteツールディレクトリでお気に入りのAIツールを手に入れましょう。 AIツールリストはGPT-4oによって毎日更新されます。 ここで無料で提出して、SEOを強化しましょう。",
     "ai-navigate": "AIツールリスト",
-    "exploreMore": "もっと多くのAIツールを入手する"
+    "exploreMore": "さらに多くのAIツールを入手",
+    "checkDetail": "詳細を見る",
+    "search": "検索",
+    "result": "検索結果",
+    "empty": "データがありません"
+  },
+  "Category": {
+    "home": "ホーム",
+    "empty": "データがありません"
   },
   "Submit": {
     "title": "AIツールを提出する",

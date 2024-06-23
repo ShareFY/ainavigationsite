@@ -115,9 +115,17 @@
   },
   "Home": {
     "title": "AI Navigation Site - Entdecken Sie die besten KI-Tools 2024",
-    "subTitle": "Holen Sie sich Ihre Lieblings-KI-Tools im AI Navigation Site Tools Verzeichnis. Die Liste der KI-Tools wird täglich von GPT-4o aktualisiert. Es ist kostenlos, sie hier einzureichen, um Ihr SEO jetzt zu verbessern.",
-    "ai-navigate": "KI-Tools Liste",
-    "exploreMore": "Weitere KI-Tools entdecken"
+    "subTitle": "Holen Sie sich Ihre bevorzugten AI-Tools im AI Navigation Site Tools Directory. AI-Toollisten werden täglich von GPT-4o aktualisiert. Es ist kostenlos, hier einzureichen, um Ihr SEO jetzt zu verbessern.",
+    "ai-navigate": "AI-Tool-Liste",
+    "exploreMore": "Weitere AI-Tools erhalten",
+    "checkDetail": "Details anzeigen",
+    "search": "Suche",
+    "result": "Suchergebnis",
+    "empty": "Keine Daten verfügbar"
+  },
+  "Category": {
+    "home": "Startseite",
+    "empty": "Keine Daten verfügbar"
   },
   "Submit": {
     "title": "Reichen Sie Ihr KI-Tool ein",

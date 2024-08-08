@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { HTMLAttributeAnchorTarget } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';

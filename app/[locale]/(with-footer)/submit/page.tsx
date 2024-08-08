@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';

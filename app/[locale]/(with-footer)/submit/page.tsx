@@ -23,12 +23,13 @@ export default function Page() {
 
   return (
     <div className='mx-auto max-w-pc'>
-      <div className='flex-y-center my-3 flex lg:my-10'>
+      <div className='flex-y-center my-3 flex lg:my-10 gap-4'>
         <h1 className='text-5xl font-bold'>{t('title')}</h1>
         <h2 className='mt-[5px] text-sm font-bold lg:my-3'>{t('subTitle')}</h2>
         <SubmitForm />
+        <a href='https://ko-fi.com/Y8Y5101CT5' target='_blank'><img height='36' className='border-0 h-9' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' alt='Buy Me a Coffee at ko-fi.com' /></a>
       </div>
-      <Faq />
+      {/* <Faq /> */}
     </div>
   );
 }

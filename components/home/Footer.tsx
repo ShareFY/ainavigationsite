@@ -56,9 +56,12 @@ export default function Footer() {
   return (
     <footer className='w-full bg-[#15141A]'>
       <div className='mx-auto flex min-h-[251px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
-        <div className='flex flex-col items-center lg:items-stretch'>
+        <div className='flex flex-col items-center lg:items-stretch gap-4'>
           <h1 className='text-xl font-bold text-white lg:h-8 lg:text-[32px]'>{t('title')}</h1>
           <h2 className='text-xs'>{t('subTitle')}</h2>
+          <div>
+            <a href='https://ko-fi.com/Y8Y5101CT5' target='_blank'><img height='36' className='border-0 h-9' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' alt='Buy Me a Coffee at ko-fi.com' /></a>
+          </div>
         </div>
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
           <div className='flex w-full flex-col gap-2'>

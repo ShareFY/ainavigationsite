@@ -61,7 +61,7 @@ export default function SubmitForm({ className }: { className?: string }) {
       <form
         onSubmit={form.handleSubmit(onSubmit)}
         className={cn(
-          'mx-3 mb-5 flex h-[449px] flex-col justify-between rounded-[12px] bg-[#2C2D36] px-3 py-5 lg:h-[557px] lg:w-[444px] lg:p-8',
+          'mx-3 mb-5 flex h-[400px] flex-col justify-between rounded-[12px] bg-[#2C2D36] px-3 py-5 lg:h-[470px] lg:w-[444px] lg:p-8',
           className,
         )}
       >
@@ -112,9 +112,14 @@ export default function SubmitForm({ className }: { className?: string }) {
           >
             {loading ? <Spinning className='size-[22px]' /> : t('submit')}
           </button>
-          <p className='text-[13px] text-white/40'>
-            {t('add')} <span className='text-white'>{WEBSITE_EXAMPLE}</span> {t('text')}
-          </p>
+
+          <div className='flex flex-col gap-2'>
+            <p>Two ways you can submit successfully: </p>
+            <p className='text-[13px] text-white/40'>
+              <span className='text-white/100'>1. </span><span className='text-red-500'>Free! </span>{t('add')} <span className='text-white'>{WEBSITE_EXAMPLE}</span> {t('text')}
+            </p>
+            <p className='text-[13px] text-white/100'>2. Buy Me a Coffee at least $1.</p>
+          </div>
         </div>
       </form>
     </Form>

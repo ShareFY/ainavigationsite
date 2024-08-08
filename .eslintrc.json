@@ -24,6 +24,9 @@
     "object-curly-newline": "off",
     "semi": ["error", "always"],
     "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    "@next/next/no-page-custom-font": "off",
+    "react/jsx-no-target-blank": "off",
+    "no-console": "off",
+    "no-trailing-spaces": "off"
   }
 }

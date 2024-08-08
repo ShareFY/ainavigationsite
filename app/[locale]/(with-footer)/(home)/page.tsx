@@ -42,10 +42,10 @@ export default async function Page() {
   ]);
   console.log(categoryList?.length, navigationList?.length);
   if (!categoryList) {
-    categoryList = []
+    categoryList = [];
   }
   if (!navigationList) {
-    navigationList = []
+    navigationList = [];
   }
 
   return (

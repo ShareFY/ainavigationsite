@@ -21,6 +21,9 @@
     "implicit-arrow-linebreak": "off",
     "operator-linebreak": "off",
     "react/require-default-props": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "semi": ["error", "always"],
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }

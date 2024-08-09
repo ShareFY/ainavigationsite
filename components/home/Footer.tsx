@@ -45,6 +45,10 @@ export default function Footer() {
       title: t('dokeyai'),
       href: 'https://dokeyai.com/',
     },
+    {
+      title: t('aistage'),
+      href: 'https://aistage.net',
+    },
   ];
 
   const INFO_LIST = [

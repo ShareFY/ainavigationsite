@@ -34,13 +34,13 @@ export default function Footer() {
 
   const SupportLinks = [
     {
-      title: t('tap4'),
+      title: t('aiNavigationSite'),
       href: 'https://ainavigationsite.com/',
     },
     {
-      title: t('tattoo'),
-      href: 'https://tattooai.design',
-    },
+      title: t('tap4'),
+      href: 'https://tap4.ai/',
+    }
   ];
 
   const INFO_LIST = [

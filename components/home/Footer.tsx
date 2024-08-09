@@ -41,6 +41,10 @@ export default function Footer() {
       title: t('tap4'),
       href: 'https://tap4.ai/',
     },
+    {
+      title: t('dokeyai'),
+      href: 'https://dokeyai.com/',
+    },
   ];
 
   const INFO_LIST = [

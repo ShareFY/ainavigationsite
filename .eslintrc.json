@@ -28,6 +28,7 @@
     "react/jsx-no-target-blank": "off",
     "no-console": "off",
     "no-trailing-spaces": "off",
-    "padded-blocks": "off"
+    "padded-blocks": "off",
+    "@typescript-eslint/comma-dangle": ["error", "always"]
   }
 }
